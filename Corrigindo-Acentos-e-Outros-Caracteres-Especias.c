@@ -4,9 +4,9 @@
 
 
 int main() 
-{ // Este exemplo funciona tam bém para Code Block
+{ // Este exemplo funciona também para Code Block
   
-  setlocale (LC_ALL, "Portuguese");// ou setlocale (LC_ALL, "");
+  setlocale (LC_ALL, "Portuguese");
 
   printf("Olá, aqui é um exemplo de acentuação\n");
   
