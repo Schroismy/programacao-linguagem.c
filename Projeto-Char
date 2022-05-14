@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//função principal do programa
+void main()
+{
+    //Definindo Variáveis
+    char letra = 'x';
+
+    //Condicional Simples
+    if (letra == 'x') {
+            printf("\nA letra eh x.");
+
+    }
+               //Codigo ANCII
+            printf("\nCodigo da letra - %d", letra);
+
+            //comparando o codigo ancii
+            if(letra == 120) {
+                                printf("\nA letra eh x.");
+
+
+            }
+
+    return 0;
+}
