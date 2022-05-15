@@ -26,26 +26,10 @@ int main (){
   return 0;
 }
 
-
 */
 
 
-/*
-  #include <stdio.h>
 
-int main (){
-  int numero;
-  scanf("%d", &numero);
-  if(numero == 0){
-  printf("Igual a zero!");
-  } else if(numero > 0) {
-    printf("Maior que zero!");    
-  } else {                       
-    printf("Menor que zero!");
-  }
-  return 0;
-}
- */
 
 #include <stdio.h>
 
