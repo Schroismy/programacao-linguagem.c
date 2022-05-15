@@ -97,8 +97,8 @@ int main(void) {
    }  
   //if (qtd > 11){
   //printf("maior que 10")
- // } else {
-   //printf("maior ou igual a 11")
+  //} else {
+  //printf("maior ou igual a 11")
   
     }
 
