@@ -1,0 +1,50 @@
+/*           
+Estrutura FOR.
+-Utilizada inicialmente quanto sabe-se o número de vezes que o trecho da algoritimo irá ser recebido
+
+-Utiliza o formato:
+for(var = INICIAL;var < valor final; var = var + 1){
+...
+}
+
+-O incremento ou decremento da vriável na linguagem C, também pode ser abreviado por: var++ ou var--.
+
+Exemplo FOR.
+->Ler 50 números fornecidos pelo usuário, calcular e exibir a média:
+
+...
+float soma,count,num,media;
+media = 0;
+soma = 0;
+for(cont =0;cont < 50;cont++){
+  sncanf("%f",&num);
+  soma = soma + num;
+}
+  soma = soma / cont;
+  printf("%f",media);
+
+*/
+
+#include <stdio.h>
+
+int main(void) {
+  float numero, soma = 0, media; 
+  int contador;
+  
+  //Inicialização depois testa
+  for(contador = 1; contador <=3; contador++){
+    
+    //Executa o bloco
+      printf("Informe %dº o valor da média: ",contador);
+      scanf("%f", &numero);
+
+      soma += numero;
+  }
+
+  media = soma / (contador - 1);
+  
+  printf("Contador = %d\n", contador);
+  printf("Média = %.2f\n", media);
+ 
+  return 0;
+  }
